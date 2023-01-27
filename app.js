@@ -57,6 +57,11 @@ app.post("/", function (req, res) {
 
 app.post("/failure", function (req, res) {
     res.redirect("/");
+
+});
+
+app.post("/success", function (req, res) {
+    res.redirect("/");
 });
 
 const port = process.env.PORT || 3000
